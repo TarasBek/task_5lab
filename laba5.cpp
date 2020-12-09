@@ -1,3 +1,4 @@
+
 #include "laba5.h"
 #include<iostream>
 
@@ -6,11 +7,9 @@ using namespace std;
 
 int main()
 {
-	TimeConverter a;
-	a.inHour();
-
-
-
+	timeConverter a;
+	a.putTime();
+	a.outputConvertedTime();
 
 	return 0;
 }

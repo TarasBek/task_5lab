@@ -1,78 +1,45 @@
-//_______________________________________________________________________________________________________________________________________________
-
 #pragma once
 #include<iostream>
 
 using namespace std;
 
 
-class  TimeConverter
+class  timeConverter
 {
 
 private:
-
-
     int hour;
     int minutes;
     int seconds;
-
-
-
 public:
 
 
-    int Funk(int H, int M, int S)
+    int Funk(int Hour, int Minute, int Seconds)
     {
-        int hour = H;
-        int minutes = M;
-        int seconds = S;
+        int hour = Hour ;
+        int minutes = Minute;
+        int seconds = Seconds;
     }
 
-    void inHour() {
-        int H;
+    void putTime() {
         cout << "enter hour" << endl;
-
-        cin >> H;
-        int h_out = H;
-
+        cin >> hour;
 
         cout << "enter minute" << endl;
-        int M;
-        cin >> M;
-        int m_out = M;
-
+        cin >> minutes;
+        
         cout << "enter second" << endl;
-        int S;
-        cin >> S;
-        int s_out = S;
-
-        cout << H * 3600 + M * 60 + S << endl;
+        cin >> seconds;
+        
     }
-    //void inMinute() {
-    //  
-    //}
-    //void inSecond() {
-    //  
-    //}
+    
 
-    ///*int outHour() {
-    //  int m_out;
-    //  return (m_out * 60);
-    // }*/
-
-
-    //int Print(int h_out,
-    //int s_out,
-    //int m_out) {
-    //  
-    //  return (h_out * 3600) + (m_out * 60) + s_out;
-    //}
-
-
-    ~TimeConverter()
+    void outputConvertedTime()
     {
-
+        
+        cout << hour * 3600 + minutes * 60 + seconds << endl;
     }
 
-
+    ~TimeConverter() {}
+    
 };
