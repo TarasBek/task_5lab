@@ -1,20 +1,19 @@
 #pragma once
 #include<iostream>
-
 using namespace std;
-
 
 class  timeConverter
 {
 
 private:
+
     int hour;
     int minutes;
     int seconds;
+
 public:
 
-
-    int Funk(int Hour, int Minute, int Seconds)
+    int setTime(int Hour, int Minute, int Seconds)
     {
         int hour = Hour ;
         int minutes = Minute;
@@ -30,16 +29,14 @@ public:
         
         cout << "enter second" << endl;
         cin >> seconds;
-        
     }
     
 
     void outputConvertedTime()
     {
-        
         cout << hour * 3600 + minutes * 60 + seconds << endl;
     }
 
-    ~TimeConverter() {}
+    ~timeConverter() {}
     
 };
