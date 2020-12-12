@@ -1,1 +1,2 @@
-Треба було зробити програму щоб ти міг  вводити час в форматі hh:mm:ss і щоб програма конвертувала то все в секунди
+The task was to make a time converter that converts hours, minutes, and seconds (that were put from the user) to seconds. 
+How to  run the code: Open  Visual  studio - > move  Timeconverter.h and Timeconverter.cpp -> run  compiler.
