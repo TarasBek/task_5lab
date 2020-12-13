@@ -1,9 +1,6 @@
-
-#include "laba5.h"
+#include "timeConverter.h"
 #include<iostream>
-
 using namespace std;
-
 
 int main()
 {
