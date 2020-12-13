@@ -1,0 +1,2 @@
+The task was to make a time converter that converts hours, minutes, and seconds (that were put from the user) to seconds. 
+How to  run the code: Open  Visual  studio - > move  Timeconverter.h and Timeconverter.cpp -> run  compiler.
